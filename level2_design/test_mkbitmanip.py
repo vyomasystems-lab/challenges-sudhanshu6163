@@ -34,9 +34,10 @@ def run_test(dut):
 
     ######### CTB : Modify the test to expose the bug #############
     # input transaction
-    mav_putvalue_src1 = 0x5
-    mav_putvalue_src2 = 0x0
-    mav_putvalue_src3 = 0x0
+    mav_putvalue_src1 = 0x12342458
+    mav_putvalue_src2 = 0x12345678
+    mav_putvalue_src3 = 0x25896314
+    
     mav_putvalue_instr = 0x101010B3
 
     # expected output from the model

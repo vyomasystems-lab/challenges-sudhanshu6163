@@ -1,4 +1,4 @@
-#!/bin/bash
+##!/bin/bash
 
 export PS1='\[\033[01;32m\]vyoma\[\033[00m\] \[\033[01;34m\]\w\[\033[00m\] (uptickpro) $ '
 brew install icarus-verilog
@@ -14,3 +14,4 @@ clear
 echo "****** UpTickPro (Evaluation Version) 1.0.0 *******"
 echo "Copyright (c) 2022, Vyoma Systems Private Limited"
 echo "All Rights Reserved."
+
